@@ -13,9 +13,6 @@ int main()
 	//cout<<"\t";
 	cin>>year;
 	//cout<<"\t";
-	yr= year%4 ;
-	yr1=year%100;
-	yr2=year%400;
 	if((year%4==0)&&(year%100!=0)||(year%400==0) )
 		isleap=1;
 	if(year<1900 || year>2050 || month<1 || month>12 )
